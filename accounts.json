@@ -1,0 +1,32 @@
+[
+  {
+    "username": "user2980249",
+    "email": "user2980249@ptct.net",
+    "password": "Pass817825",
+    "userId": "fc6038c9-4739-4d99-b038-3fe57d5f6af0",
+    "deviceId": "0cbf5951-5834-4b75-8851-cfea208c5dba",
+    "authToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJmYzYwMzhjOS00NzM5LTRkOTktYjAzOC0zZmU1N2Q1ZjZhZjAiLCJpYXQiOjE3NDQ1MTU2NjAsImV4cCI6MTc2MDA2NzY2MH0.RuaIq9gfLOZZfBOfywelhyxklQjz3EZN23Q8vMTeV2s",
+    "wallet": {
+      "address": "0xef4Bd1A89Df4819542112e41B381075BA8C87208",
+      "privateKey": "bd0c869ed0b052bfe94a0502b4c5e6a158610ef6d0c9225d3901f8c25d8e1b19"
+    },
+    "createdAt": "2025-04-13T03:42:57Z",
+    "proxy": null,
+    "tasksCompleted": 6
+  },
+  {
+    "username": "user4553817",
+    "email": "user4553817@ptct.net",
+    "password": "Pass122037",
+    "userId": "8b6105ad-834b-4d8d-8a35-8cc390d3aac9",
+    "deviceId": "e155d649-64c6-4f3c-84f3-a3b2530cf2cc",
+    "authToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI4YjYxMDVhZC04MzRiLTRkOGQtOGEzNS04Y2MzOTBkM2FhYzkiLCJpYXQiOjE3NDQ1MTYxNTgsImV4cCI6MTc2MDA2ODE1OH0.zmqCP6tjP4V64p50fQX0GXDpePnFBhpLurC-Yf3Y7YM",
+    "wallet": {
+      "address": "0x14dBB37f9AddB68B249831Db19d0078395D900Dc",
+      "privateKey": "4aff41da1f7ed18d55541accd65e1ef7388fedc073da23fbd5db48c2f43c6ade"
+    },
+    "createdAt": "2025-04-13T03:50:31Z",
+    "proxy": null,
+    "tasksCompleted": 6
+  }
+]
