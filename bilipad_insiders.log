@@ -321,3 +321,416 @@
 2025-04-13 09:21:56,338 - INFO - [+] Loaded referral code: 05c138f7-3c98-41c0-af7d-8e7a4196cff6
 2025-04-13 09:21:56,339 - WARNING - [!] No proxies found in proxies.txt
 2025-04-13 09:21:56,340 - WARNING - [!] No proxies loaded. The script will run without proxies.
+2025-04-13 09:27:49,634 - INFO - [+] Loaded referral code: 05c138f7-3c98-41c0-af7d-8e7a4196cff6
+2025-04-13 09:27:49,635 - WARNING - [!] No proxies found in proxies.txt
+2025-04-13 09:27:49,636 - WARNING - [!] No proxies loaded. The script will run without proxies.
+2025-04-13 09:27:55,577 - INFO - [+] Loaded 2 existing accounts from accounts.json
+2025-04-13 09:27:57,422 - INFO - Starting 1 accounts...
+2025-04-13 09:27:57,423 - INFO - 
+[*] Account 1/1
+2025-04-13 09:27:57,424 - WARNING - [!] No valid proxies available, proceeding without proxy
+2025-04-13 09:27:57,425 - INFO - [+] Created email: user5506764@ptct.net
+2025-04-13 09:27:57,425 - INFO - [*] Creating account: user5506764@ptct.net
+2025-04-13 09:27:58,219 - WARNING - Request failed (attempt 1/3): 402 Client Error: Payment Required for url: https://billipad.finance/api/signup. Retrying in 2s...
+2025-04-13 09:28:00,573 - WARNING - Request failed (attempt 2/3): 402 Client Error: Payment Required for url: https://billipad.finance/api/signup. Retrying in 4s...
+2025-04-13 09:28:04,910 - ERROR - Request error after 3 attempts: 402 Client Error: Payment Required for url: https://billipad.finance/api/signup
+2025-04-13 09:28:04,911 - ERROR - [-] Registration failed for user5506764@ptct.net: 402 Client Error: Payment Required for url: https://billipad.finance/api/signup
+2025-04-13 09:28:04,912 - ERROR - [-] Account creation failed: 402 Client Error: Payment Required for url: https://billipad.finance/api/signup
+2025-04-13 09:28:04,913 - INFO - [-] Account 1 failed
+2025-04-13 09:28:04,914 - INFO - 
+[+] Done: 0 OK, 1 failed
+2025-04-13 09:28:04,914 - INFO - [*] Saved to accounts.json
+2025-04-13 09:28:04,915 - INFO - 
+[!] 1 accounts left. Retry 1/3
+2025-04-13 09:28:04,915 - INFO - Waiting 11035ms...
+2025-04-13 09:28:15,951 - INFO - Starting 1 accounts...
+2025-04-13 09:28:15,952 - INFO - 
+[*] Account 1/1
+2025-04-13 09:28:15,952 - WARNING - [!] No valid proxies available, proceeding without proxy
+2025-04-13 09:28:15,953 - INFO - [+] Created email: user6503912@ptct.net
+2025-04-13 09:28:15,953 - INFO - [*] Creating account: user6503912@ptct.net
+2025-04-13 09:28:16,310 - WARNING - Request failed (attempt 1/3): 402 Client Error: Payment Required for url: https://billipad.finance/api/signup. Retrying in 2s...
+2025-04-13 09:28:18,635 - WARNING - Request failed (attempt 2/3): 402 Client Error: Payment Required for url: https://billipad.finance/api/signup. Retrying in 4s...
+2025-04-13 09:28:22,990 - ERROR - Request error after 3 attempts: 402 Client Error: Payment Required for url: https://billipad.finance/api/signup
+2025-04-13 09:28:22,992 - ERROR - [-] Registration failed for user6503912@ptct.net: 402 Client Error: Payment Required for url: https://billipad.finance/api/signup
+2025-04-13 09:28:22,992 - ERROR - [-] Account creation failed: 402 Client Error: Payment Required for url: https://billipad.finance/api/signup
+2025-04-13 09:28:22,993 - INFO - [-] Account 1 failed
+2025-04-13 09:28:22,995 - INFO - 
+[+] Done: 0 OK, 1 failed
+2025-04-13 09:28:22,996 - INFO - [*] Saved to accounts.json
+2025-04-13 09:28:22,997 - INFO - 
+[!] 1 accounts left. Retry 2/3
+2025-04-13 09:28:22,998 - INFO - Waiting 12280ms...
+2025-04-13 09:28:35,280 - INFO - Starting 1 accounts...
+2025-04-13 09:28:35,281 - INFO - 
+[*] Account 1/1
+2025-04-13 09:28:35,282 - WARNING - [!] No valid proxies available, proceeding without proxy
+2025-04-13 09:28:35,283 - INFO - [+] Created email: user6709324@ptct.net
+2025-04-13 09:28:35,284 - INFO - [*] Creating account: user6709324@ptct.net
+2025-04-13 09:28:35,601 - WARNING - Request failed (attempt 1/3): 402 Client Error: Payment Required for url: https://billipad.finance/api/signup. Retrying in 2s...
+2025-04-13 09:28:37,904 - WARNING - Request failed (attempt 2/3): 402 Client Error: Payment Required for url: https://billipad.finance/api/signup. Retrying in 4s...
+2025-04-13 09:28:42,270 - ERROR - Request error after 3 attempts: 402 Client Error: Payment Required for url: https://billipad.finance/api/signup
+2025-04-13 09:28:42,271 - ERROR - [-] Registration failed for user6709324@ptct.net: 402 Client Error: Payment Required for url: https://billipad.finance/api/signup
+2025-04-13 09:28:42,272 - ERROR - [-] Account creation failed: 402 Client Error: Payment Required for url: https://billipad.finance/api/signup
+2025-04-13 09:28:42,273 - INFO - [-] Account 1 failed
+2025-04-13 09:28:42,273 - INFO - 
+[+] Done: 0 OK, 1 failed
+2025-04-13 09:28:42,274 - INFO - [*] Saved to accounts.json
+2025-04-13 09:28:42,275 - INFO - 
+[!] 1 accounts left. Retry 3/3
+2025-04-13 09:28:42,276 - INFO - 
+[-] Failed to create all accounts after 3 retries
+2025-04-13 09:28:42,276 - INFO - Created 0/1
+2025-04-13 09:34:00,644 - INFO - [+] Loaded referral code: 05c138f7-3c98-41c0-af7d-8e7a4196cff6
+2025-04-13 09:34:00,645 - WARNING - [!] No proxies found in proxies.txt
+2025-04-13 09:34:00,646 - WARNING - [!] No proxies loaded. The script will run without proxies.
+2025-04-13 09:34:34,144 - INFO - [*] Exiting script as requested.
+2025-04-13 09:37:40,027 - INFO - [+] Loaded referral code: 05c138f7-3c98-41c0-af7d-8e7a4196cff6
+2025-04-13 09:37:40,028 - WARNING - [!] No proxies found in proxies.txt
+2025-04-13 09:37:40,029 - WARNING - [!] No proxies loaded. The script will run without proxies.
+2025-04-13 09:37:49,664 - INFO - [+] Loaded referral code: 05c138f7-3c98-41c0-af7d-8e7a4196cff6
+2025-04-13 09:37:49,665 - WARNING - [!] No proxies found in proxies.txt
+2025-04-13 09:37:49,666 - WARNING - [!] No proxies loaded. The script will run without proxies.
+2025-04-13 09:37:53,072 - INFO - [*] Exiting script as requested.
+2025-04-13 09:38:20,325 - INFO - [+] Loaded referral code: 05c138f7-3c98-41c0-af7d-8e7a4196cff6
+2025-04-13 09:38:20,326 - WARNING - [!] No proxies found in proxies.txt
+2025-04-13 09:38:20,327 - WARNING - [!] No proxies loaded. The script will run without proxies.
+2025-04-13 09:38:39,200 - INFO - [+] Loaded referral code: 05c138f7-3c98-41c0-af7d-8e7a4196cff6
+2025-04-13 09:38:39,201 - WARNING - [!] No proxies found in proxies.txt
+2025-04-13 09:38:39,201 - WARNING - [!] No proxies loaded. The script will run without proxies.
+2025-04-13 09:38:45,384 - INFO - [*] Exiting script as requested.
+2025-04-13 09:40:24,391 - INFO - [+] Loaded referral code: 05c138f7-3c98-41c0-af7d-8e7a4196cff6
+2025-04-13 09:40:24,392 - INFO - [*] Raw file content: ''
+2025-04-13 09:40:24,393 - INFO - [*] Found 0 non-empty lines in proxies.txt
+2025-04-13 09:40:24,393 - WARNING - [!] No proxies found in proxies.txt
+2025-04-13 09:40:24,394 - WARNING - [!] No proxies loaded. The script will run without proxies.
+2025-04-13 09:40:39,426 - INFO - [+] Loaded referral code: 05c138f7-3c98-41c0-af7d-8e7a4196cff6
+2025-04-13 09:40:39,427 - INFO - [*] Raw file content: ''
+2025-04-13 09:40:39,427 - INFO - [*] Found 0 non-empty lines in proxies.txt
+2025-04-13 09:40:39,428 - WARNING - [!] No proxies found in proxies.txt
+2025-04-13 09:40:39,428 - WARNING - [!] No proxies loaded. The script will run without proxies.
+2025-04-13 09:41:41,351 - INFO - [+] Loaded referral code: 05c138f7-3c98-41c0-af7d-8e7a4196cff6
+2025-04-13 09:41:41,352 - INFO - [*] Raw file content: 'bsjxixgn:gsx3ekjhuord@38.153.152.244:9594 '
+2025-04-13 09:41:41,353 - INFO - [*] Found 1 non-empty lines in proxies.txt
+2025-04-13 09:41:41,353 - INFO - [*] Line 1: 'bsjxixgn:gsx3ekjhuord@38.153.152.244:9594'
+2025-04-13 09:41:41,353 - INFO - [*] Processing proxy line: bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 09:41:41,354 - INFO - [+] Parsed proxy: 38.153.152.244:9594 with auth
+2025-04-13 09:41:41,354 - INFO - [+] Added proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 09:41:41,355 - INFO - [+] Successfully loaded 1 proxies
+2025-04-13 09:41:41,355 - INFO - [+] Successfully loaded 1 proxies
+2025-04-13 09:41:41,355 - INFO - [+] Proxy 1: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 09:41:41,356 - INFO - [+] Loaded 2 existing accounts from accounts.json
+2025-04-13 09:41:41,356 - INFO - [*] Using proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 09:41:41,357 - INFO - [*] Testing website accessibility with proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 09:41:46,117 - WARNING - [!] Website returned status code 402
+2025-04-13 09:42:05,358 - INFO - Starting 1 accounts...
+2025-04-13 09:42:05,358 - INFO - 
+[*] Account 1/1
+2025-04-13 09:42:05,359 - INFO - [*] Using proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 09:42:05,359 - INFO - [+] Created email: user7690252@ptct.net
+2025-04-13 09:42:05,360 - INFO - [*] Creating account: user7690252@ptct.net
+2025-04-13 09:42:06,800 - INFO - [+] Visited signup page to get cookies
+2025-04-13 09:42:08,801 - INFO - [*] Making request with proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 09:42:10,545 - ERROR - [-] Payment Required error: Payment required
+
+DEPLOYMENT_DISABLED
+
+iad1::lp6vm-1744517529790-650894b01d1c
+
+2025-04-13 09:42:10,546 - ERROR - [-] Registration failed for user7690252@ptct.net: Payment Required: Payment required
+
+DEPLOYMENT_DISABLED
+
+iad1::lp6vm-1744517529790-650894b01d1c
+
+2025-04-13 09:42:10,546 - ERROR - [-] Account creation failed: Payment Required: Payment required
+
+DEPLOYMENT_DISABLED
+
+iad1::lp6vm-1744517529790-650894b01d1c
+
+2025-04-13 09:42:10,547 - INFO - [-] Account 1 failed
+2025-04-13 09:42:10,548 - INFO - 
+[+] Done: 0 OK, 1 failed
+2025-04-13 09:42:10,548 - INFO - [*] Saved to accounts.json
+2025-04-13 09:42:10,548 - INFO - 
+[!] 1 accounts left. Retry 1/3
+2025-04-13 09:42:10,549 - INFO - Waiting 13899ms...
+2025-04-13 09:42:24,448 - INFO - Starting 1 accounts...
+2025-04-13 09:42:24,450 - INFO - 
+[*] Account 1/1
+2025-04-13 09:42:24,451 - INFO - [*] Using proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 09:42:24,452 - INFO - [+] Created email: user2731935@ptct.net
+2025-04-13 09:42:24,453 - INFO - [*] Creating account: user2731935@ptct.net
+2025-04-13 09:42:26,305 - INFO - [+] Visited signup page to get cookies
+2025-04-13 09:42:28,307 - INFO - [*] Making request with proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 09:42:30,151 - ERROR - [-] Payment Required error: Payment required
+
+DEPLOYMENT_DISABLED
+
+iad1::ctjcz-1744517549393-5f75ae38e41a
+
+2025-04-13 09:42:30,152 - ERROR - [-] Registration failed for user2731935@ptct.net: Payment Required: Payment required
+
+DEPLOYMENT_DISABLED
+
+iad1::ctjcz-1744517549393-5f75ae38e41a
+
+2025-04-13 09:42:30,152 - ERROR - [-] Account creation failed: Payment Required: Payment required
+
+DEPLOYMENT_DISABLED
+
+iad1::ctjcz-1744517549393-5f75ae38e41a
+
+2025-04-13 09:42:30,153 - INFO - [-] Account 1 failed
+2025-04-13 09:42:30,153 - INFO - 
+[+] Done: 0 OK, 1 failed
+2025-04-13 09:42:30,153 - INFO - [*] Saved to accounts.json
+2025-04-13 09:42:30,154 - INFO - 
+[!] 1 accounts left. Retry 2/3
+2025-04-13 09:42:30,154 - INFO - Waiting 13395ms...
+2025-04-13 09:42:43,550 - INFO - Starting 1 accounts...
+2025-04-13 09:42:43,551 - INFO - 
+[*] Account 1/1
+2025-04-13 09:42:43,552 - INFO - [*] Using proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 09:42:43,552 - INFO - [+] Created email: user3006140@ptct.net
+2025-04-13 09:42:43,553 - INFO - [*] Creating account: user3006140@ptct.net
+2025-04-13 09:42:45,526 - INFO - [+] Visited signup page to get cookies
+2025-04-13 09:42:47,527 - INFO - [*] Making request with proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 09:42:49,196 - ERROR - [-] Payment Required error: Payment required
+
+DEPLOYMENT_DISABLED
+
+iad1::grxfh-1744517568448-8378e70e7f22
+
+2025-04-13 09:42:49,197 - ERROR - [-] Registration failed for user3006140@ptct.net: Payment Required: Payment required
+
+DEPLOYMENT_DISABLED
+
+iad1::grxfh-1744517568448-8378e70e7f22
+
+2025-04-13 09:42:49,198 - ERROR - [-] Account creation failed: Payment Required: Payment required
+
+DEPLOYMENT_DISABLED
+
+iad1::grxfh-1744517568448-8378e70e7f22
+
+2025-04-13 09:42:49,199 - INFO - [-] Account 1 failed
+2025-04-13 09:42:49,199 - INFO - 
+[+] Done: 0 OK, 1 failed
+2025-04-13 09:42:49,200 - INFO - [*] Saved to accounts.json
+2025-04-13 09:42:49,200 - INFO - 
+[!] 1 accounts left. Retry 3/3
+2025-04-13 09:42:49,201 - INFO - 
+[-] Failed to create all accounts after 3 retries
+2025-04-13 09:42:49,201 - INFO - Created 0/1
+2025-04-13 09:43:31,385 - INFO - [+] Loaded referral code: 05c138f7-3c98-41c0-af7d-8e7a4196cff6
+2025-04-13 09:43:31,386 - INFO - [*] Raw file content: 'bsjxixgn:gsx3ekjhuord@38.153.152.244:9594 '
+2025-04-13 09:43:31,386 - INFO - [*] Found 1 non-empty lines in proxies.txt
+2025-04-13 09:43:31,387 - INFO - [*] Line 1: 'bsjxixgn:gsx3ekjhuord@38.153.152.244:9594'
+2025-04-13 09:43:31,387 - INFO - [*] Processing proxy line: bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 09:43:31,388 - INFO - [+] Parsed proxy: 38.153.152.244:9594 with auth
+2025-04-13 09:43:31,388 - INFO - [+] Added proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 09:43:31,388 - INFO - [+] Successfully loaded 1 proxies
+2025-04-13 09:43:31,388 - INFO - [+] Successfully loaded 1 proxies
+2025-04-13 09:43:31,389 - INFO - [+] Proxy 1: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 09:43:31,389 - INFO - [+] Loaded 2 existing accounts from accounts.json
+2025-04-13 09:43:31,390 - INFO - [*] Using proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 09:43:31,390 - INFO - [*] Testing website accessibility with proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 09:43:33,314 - WARNING - [!] Website returned status code 402
+2025-04-13 12:22:17,746 - INFO - [+] Loaded referral code: 05c138f7-3c98-41c0-af7d-8e7a4196cff6
+2025-04-13 12:22:17,748 - INFO - [*] Raw file content: 'bsjxixgn:gsx3ekjhuord@38.153.152.244:9594 '
+2025-04-13 12:22:17,748 - INFO - [*] Found 1 non-empty lines in proxies.txt
+2025-04-13 12:22:17,749 - INFO - [*] Line 1: 'bsjxixgn:gsx3ekjhuord@38.153.152.244:9594'
+2025-04-13 12:22:17,750 - INFO - [*] Processing proxy line: bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 12:22:17,750 - INFO - [+] Parsed proxy: 38.153.152.244:9594 with auth
+2025-04-13 12:22:17,751 - INFO - [+] Added proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 12:22:17,752 - INFO - [+] Successfully loaded 1 proxies
+2025-04-13 12:22:17,752 - INFO - [+] Successfully loaded 1 proxies
+2025-04-13 12:22:17,753 - INFO - [+] Proxy 1: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 12:22:17,757 - INFO - [+] Loaded 2 existing accounts from accounts.json
+2025-04-13 12:22:17,759 - INFO - [*] Using proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 12:22:17,760 - INFO - [*] Testing website accessibility with proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 12:22:19,699 - INFO - [+] Website is accessible
+2025-04-13 12:22:54,825 - INFO - Starting 1 accounts...
+2025-04-13 12:22:54,826 - INFO - 
+[*] Account 1/1
+2025-04-13 12:22:54,827 - INFO - [*] Using proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 12:22:54,828 - INFO - [+] Created email: user4984002@ptct.net
+2025-04-13 12:22:54,829 - INFO - [*] Creating account: user4984002@ptct.net
+2025-04-13 12:22:56,672 - INFO - [+] Visited signup page to get cookies
+2025-04-13 12:22:58,674 - INFO - [*] Making request with proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 12:23:00,688 - INFO - [+] Successfully registered: user4984002@ptct.net
+2025-04-13 12:23:00,689 - INFO - Waiting 2s...
+2025-04-13 12:23:04,426 - INFO - [+] Visited login page to get cookies
+2025-04-13 12:23:06,427 - INFO - [*] Making request with proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 12:23:08,467 - INFO - Login data: userId=9d48412a-28bd-4034-a1f5-d1f7b500741e, hasToken=False
+2025-04-13 12:23:08,468 - INFO - Cookies: Present
+2025-04-13 12:23:08,469 - INFO - [+] Token from cookie
+2025-04-13 12:23:08,469 - INFO - [+] Logged in: user4984002@ptct.net
+2025-04-13 12:23:08,470 - INFO - [+] Token: eyJhbGciOiJIUzI1NiIs...
+2025-04-13 12:23:08,471 - INFO - [*] User ID: 9d48412a-28bd-4034-a1f5-d1f7b500741e
+2025-04-13 12:23:08,471 - INFO - Waiting 2s...
+2025-04-13 12:23:10,472 - INFO - [*] Making request with proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 12:23:12,316 - INFO - [+] Auth check OK
+2025-04-13 12:23:12,317 - INFO - [*] Making request with proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 12:23:14,226 - INFO - [+] Task 1 done for user: 9d48412a-28bd-4034-a1f5-d1f7b500741e
+2025-04-13 12:23:15,976 - INFO - [*] Making request with proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 12:23:19,174 - INFO - [+] Task 2 done for user: 9d48412a-28bd-4034-a1f5-d1f7b500741e
+2025-04-13 12:23:20,816 - INFO - [*] Making request with proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 12:23:22,618 - INFO - [+] Task 3 done for user: 9d48412a-28bd-4034-a1f5-d1f7b500741e
+2025-04-13 12:23:23,900 - INFO - [*] Making request with proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 12:23:25,644 - INFO - [+] Task 4 done for user: 9d48412a-28bd-4034-a1f5-d1f7b500741e
+2025-04-13 12:23:27,455 - INFO - [*] Making request with proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 12:23:29,234 - INFO - [+] Task 5 done for user: 9d48412a-28bd-4034-a1f5-d1f7b500741e
+2025-04-13 12:23:30,303 - INFO - [*] Making request with proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 12:23:32,094 - INFO - [+] Task 6 done for user: 9d48412a-28bd-4034-a1f5-d1f7b500741e
+2025-04-13 12:23:33,188 - INFO - [*] Making request with proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 12:23:36,115 - INFO - [+] Task 7 done for user: 9d48412a-28bd-4034-a1f5-d1f7b500741e
+2025-04-13 12:23:37,227 - INFO - [*] Wallet: 0x68884E9c6AAB85CAf2d3e3B2c857e79EFbAE4af8
+2025-04-13 12:23:37,228 - INFO - [*] Making request with proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 12:23:40,311 - WARNING - Request failed (attempt 1/3): 500 Server Error: Internal Server Error for url: https://billipad.finance/api/withdraw. Retrying in 2s...
+2025-04-13 12:23:42,313 - INFO - [*] Making request with proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 12:23:44,842 - WARNING - Request failed (attempt 2/3): 500 Server Error: Internal Server Error for url: https://billipad.finance/api/withdraw. Retrying in 4s...
+2025-04-13 12:23:48,844 - INFO - [*] Making request with proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 12:23:50,659 - ERROR - Request error after 3 attempts: 500 Server Error: Internal Server Error for url: https://billipad.finance/api/withdraw
+2025-04-13 12:23:50,660 - ERROR - [-] Withdrawal address failed: 500 Server Error: Internal Server Error for url: https://billipad.finance/api/withdraw
+2025-04-13 12:23:50,660 - ERROR - [-] Failed to submit withdrawal address: 500 Server Error: Internal Server Error for url: https://billipad.finance/api/withdraw
+2025-04-13 12:23:50,663 - INFO - [+] Saved 3 accounts to accounts.json
+2025-04-13 12:23:50,664 - INFO - [+] Account created: user4984002@ptct.net
+2025-04-13 12:23:50,664 - INFO - [+] Account 1 done
+2025-04-13 12:23:50,664 - INFO - 
+[+] Done: 1 OK, 0 failed
+2025-04-13 12:23:50,665 - INFO - [*] Saved to accounts.json
+2025-04-13 12:23:50,665 - INFO - 
+[+] All 1 accounts created
+2025-04-13 12:26:19,191 - INFO - [+] Loaded referral code: 05c138f7-3c98-41c0-af7d-8e7a4196cff6
+2025-04-13 12:26:19,193 - INFO - [*] Raw file content: 'bsjxixgn:gsx3ekjhuord@38.153.152.244:9594 '
+2025-04-13 12:26:19,194 - INFO - [*] Found 1 non-empty lines in proxies.txt
+2025-04-13 12:26:19,195 - INFO - [*] Line 1: 'bsjxixgn:gsx3ekjhuord@38.153.152.244:9594'
+2025-04-13 12:26:19,195 - INFO - [*] Processing proxy line: bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 12:26:19,196 - INFO - [+] Parsed proxy: 38.153.152.244:9594 with auth
+2025-04-13 12:26:19,197 - INFO - [+] Added proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 12:26:19,197 - INFO - [+] Successfully loaded 1 proxies
+2025-04-13 12:26:19,198 - INFO - [+] Successfully loaded 1 proxies
+2025-04-13 12:26:19,199 - INFO - [+] Proxy 1: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 12:26:19,200 - INFO - [+] Loaded 3 existing accounts from accounts.json
+2025-04-13 12:26:19,201 - INFO - [*] Using proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 12:26:19,202 - INFO - [*] Testing website accessibility with proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 12:26:21,143 - INFO - [+] Website is accessible
+2025-04-13 12:26:23,700 - INFO - Starting 1 accounts...
+2025-04-13 12:26:23,702 - INFO - 
+[*] Account 1/1
+2025-04-13 12:26:23,703 - INFO - [*] Using proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 12:26:23,704 - INFO - [+] Created email: user1243801@ptct.net
+2025-04-13 12:26:23,705 - INFO - [*] Creating account: user1243801@ptct.net
+2025-04-13 12:26:25,428 - INFO - [+] Visited signup page to get cookies
+2025-04-13 12:26:27,430 - INFO - [*] Making request with proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 12:26:29,837 - INFO - [+] Successfully registered: user1243801@ptct.net
+2025-04-13 12:26:29,839 - INFO - Waiting 2s...
+2025-04-13 12:26:33,511 - INFO - [+] Visited login page to get cookies
+2025-04-13 12:26:35,513 - INFO - [*] Making request with proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 12:26:38,086 - INFO - Login data: userId=e7f1fbcc-9d64-4231-a78f-ae300191ebd0, hasToken=False
+2025-04-13 12:26:38,088 - INFO - Cookies: Present
+2025-04-13 12:26:38,089 - INFO - [+] Token from cookie
+2025-04-13 12:26:38,090 - INFO - [+] Logged in: user1243801@ptct.net
+2025-04-13 12:26:38,091 - INFO - [+] Token: eyJhbGciOiJIUzI1NiIs...
+2025-04-13 12:26:38,092 - INFO - [*] User ID: e7f1fbcc-9d64-4231-a78f-ae300191ebd0
+2025-04-13 12:26:38,092 - INFO - Waiting 2s...
+2025-04-13 12:26:40,093 - INFO - [*] Making request with proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 12:26:41,896 - INFO - [+] Auth check OK
+2025-04-13 12:26:41,899 - INFO - [*] Making request with proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 12:26:44,130 - INFO - [+] Task 1 done for user: e7f1fbcc-9d64-4231-a78f-ae300191ebd0
+2025-04-13 12:26:45,749 - INFO - [*] Making request with proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 12:26:47,620 - INFO - [+] Task 2 done for user: e7f1fbcc-9d64-4231-a78f-ae300191ebd0
+2025-04-13 12:26:49,044 - INFO - [*] Making request with proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 12:26:51,439 - INFO - [+] Task 3 done for user: e7f1fbcc-9d64-4231-a78f-ae300191ebd0
+2025-04-13 12:26:52,539 - INFO - [*] Making request with proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 12:26:54,414 - INFO - [+] Task 4 done for user: e7f1fbcc-9d64-4231-a78f-ae300191ebd0
+2025-04-13 12:26:55,511 - INFO - [*] Making request with proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 12:26:57,324 - INFO - [+] Task 5 done for user: e7f1fbcc-9d64-4231-a78f-ae300191ebd0
+2025-04-13 12:26:58,434 - INFO - [*] Making request with proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 12:27:00,297 - INFO - [+] Task 6 done for user: e7f1fbcc-9d64-4231-a78f-ae300191ebd0
+2025-04-13 12:27:01,719 - INFO - [*] Making request with proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 12:27:03,869 - INFO - [+] Task 7 done for user: e7f1fbcc-9d64-4231-a78f-ae300191ebd0
+2025-04-13 12:27:05,673 - INFO - [*] Wallet: 0x1B2033131b58465C7cFCb47558f4BF64fb0453f5
+2025-04-13 12:27:05,674 - INFO - [*] Making request with proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 12:27:10,801 - WARNING - Request failed (attempt 1/3): 500 Server Error: Internal Server Error for url: https://billipad.finance/api/withdraw. Retrying in 2s...
+2025-04-13 12:27:12,803 - INFO - [*] Making request with proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 12:27:16,378 - WARNING - Request failed (attempt 2/3): 500 Server Error: Internal Server Error for url: https://billipad.finance/api/withdraw. Retrying in 4s...
+2025-04-13 12:27:20,381 - INFO - [*] Making request with proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 12:27:29,102 - INFO - [+] Withdrawal address set for user: e7f1fbcc-9d64-4231-a78f-ae300191ebd0
+2025-04-13 12:27:29,114 - INFO - [+] Saved 4 accounts to accounts.json
+2025-04-13 12:27:29,116 - INFO - [+] Account created: user1243801@ptct.net
+2025-04-13 12:27:29,118 - INFO - [+] Account 1 done
+2025-04-13 12:27:29,119 - INFO - 
+[+] Done: 1 OK, 0 failed
+2025-04-13 12:27:29,121 - INFO - [*] Saved to accounts.json
+2025-04-13 12:27:29,123 - INFO - 
+[+] All 1 accounts created
+2025-04-13 13:05:28,342 - INFO - [+] Loaded referral code: 05c138f7-3c98-41c0-af7d-8e7a4196cff6
+2025-04-13 13:05:28,344 - INFO - [*] Raw file content: 'bsjxixgn:gsx3ekjhuord@38.153.152.244:9594 \n'
+2025-04-13 13:05:28,345 - INFO - [*] Found 1 non-empty lines in proxies.txt
+2025-04-13 13:05:28,345 - INFO - [*] Line 1: 'bsjxixgn:gsx3ekjhuord@38.153.152.244:9594'
+2025-04-13 13:05:28,346 - INFO - [*] Processing proxy line: bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 13:05:28,346 - INFO - [+] Parsed proxy: 38.153.152.244:9594 with auth
+2025-04-13 13:05:28,346 - INFO - [+] Added proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 13:05:28,347 - INFO - [+] Successfully loaded 1 proxies
+2025-04-13 13:05:28,347 - INFO - [+] Successfully loaded 1 proxies
+2025-04-13 13:05:28,348 - INFO - [+] Proxy 1: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 13:05:28,349 - INFO - [+] Loaded 4 existing accounts from accounts.json
+2025-04-13 13:05:28,350 - INFO - [*] Using proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 13:05:28,350 - INFO - [*] Testing website accessibility with proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 13:05:31,092 - INFO - [+] Website is accessible
+2025-04-13 13:05:40,680 - INFO - Starting 1 accounts...
+2025-04-13 13:05:40,682 - INFO - 
+[*] Account 1/1
+2025-04-13 13:05:40,682 - INFO - [*] Using proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 13:05:40,683 - INFO - [+] Created email: user2887192@ptct.net
+2025-04-13 13:05:40,684 - INFO - [*] Creating account: user2887192@ptct.net
+2025-04-13 13:05:42,622 - INFO - [+] Visited signup page to get cookies
+2025-04-13 13:05:44,625 - INFO - [*] Making request with proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 13:05:49,619 - INFO - [+] Successfully registered: user2887192@ptct.net
+2025-04-13 13:05:49,620 - INFO - Waiting 2s...
+2025-04-13 13:05:53,660 - INFO - [+] Visited login page to get cookies
+2025-04-13 13:05:55,661 - INFO - [*] Making request with proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 13:05:58,094 - INFO - Login data: userId=b7e9d229-9d8b-4c42-8551-e55c63c22479, hasToken=False
+2025-04-13 13:05:58,095 - INFO - Cookies: Present
+2025-04-13 13:05:58,097 - INFO - [+] Token from cookie
+2025-04-13 13:05:58,098 - INFO - [+] Logged in: user2887192@ptct.net
+2025-04-13 13:05:58,099 - INFO - [+] Token: eyJhbGciOiJIUzI1NiIs...
+2025-04-13 13:05:58,101 - INFO - [*] User ID: b7e9d229-9d8b-4c42-8551-e55c63c22479
+2025-04-13 13:05:58,102 - INFO - Waiting 2s...
+2025-04-13 13:06:00,103 - INFO - [*] Making request with proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 13:06:02,559 - INFO - [+] Auth check OK
+2025-04-13 13:06:02,560 - INFO - [*] Making request with proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 13:06:04,643 - WARNING - Request failed (attempt 1/3): 500 Server Error: Internal Server Error for url: https://billipad.finance/api/referral?userId=b7e9d229-9d8b-4c42-8551-e55c63c22479. Retrying in 2s...
+2025-04-13 13:06:06,645 - INFO - [*] Making request with proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 13:06:08,536 - INFO - [+] Task 1 done for user: b7e9d229-9d8b-4c42-8551-e55c63c22479
+2025-04-13 13:06:10,461 - INFO - [*] Making request with proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 13:06:13,755 - INFO - [+] Task 2 done for user: b7e9d229-9d8b-4c42-8551-e55c63c22479
+2025-04-13 13:06:15,129 - INFO - [*] Making request with proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 13:06:17,172 - WARNING - Request failed (attempt 1/3): 500 Server Error: Internal Server Error for url: https://billipad.finance/api/referral?userId=b7e9d229-9d8b-4c42-8551-e55c63c22479. Retrying in 2s...
+2025-04-13 13:06:19,174 - INFO - [*] Making request with proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 13:06:21,299 - INFO - [+] Task 3 done for user: b7e9d229-9d8b-4c42-8551-e55c63c22479
+2025-04-13 13:06:22,848 - INFO - [*] Making request with proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 13:06:25,913 - INFO - [+] Task 4 done for user: b7e9d229-9d8b-4c42-8551-e55c63c22479
+2025-04-13 13:06:27,019 - INFO - [*] Making request with proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 13:06:34,557 - INFO - [+] Task 5 done for user: b7e9d229-9d8b-4c42-8551-e55c63c22479
+2025-04-13 13:06:35,979 - INFO - [*] Making request with proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 13:06:39,195 - INFO - [+] Task 6 done for user: b7e9d229-9d8b-4c42-8551-e55c63c22479
+2025-04-13 13:06:40,929 - INFO - [*] Making request with proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 13:06:42,722 - WARNING - Request failed (attempt 1/3): 500 Server Error: Internal Server Error for url: https://billipad.finance/api/referral?userId=b7e9d229-9d8b-4c42-8551-e55c63c22479. Retrying in 2s...
+2025-04-13 13:06:44,723 - INFO - [*] Making request with proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 13:06:46,567 - INFO - [+] Task 7 done for user: b7e9d229-9d8b-4c42-8551-e55c63c22479
+2025-04-13 13:06:48,040 - INFO - [*] Wallet: 0xE29DF12898bE7E9fCd5d62b0a9379D25dAFbCC66
+2025-04-13 13:06:48,041 - INFO - [*] Making request with proxy: http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594
+2025-04-13 13:06:50,140 - INFO - [+] Withdrawal address set for user: b7e9d229-9d8b-4c42-8551-e55c63c22479
+2025-04-13 13:06:50,144 - INFO - [+] Saved 5 accounts to accounts.json
+2025-04-13 13:06:50,145 - INFO - [+] Account created: user2887192@ptct.net
+2025-04-13 13:06:50,145 - INFO - [+] Account 1 done
+2025-04-13 13:06:50,146 - INFO - 
+[+] Done: 1 OK, 0 failed
+2025-04-13 13:06:50,147 - INFO - [*] Saved to accounts.json
+2025-04-13 13:06:50,147 - INFO - 
+[+] All 1 accounts created

@@ -28,5 +28,50 @@
     "createdAt": "2025-04-13T03:50:31Z",
     "proxy": null,
     "tasksCompleted": 6
+  },
+  {
+    "username": "user4984002",
+    "email": "user4984002@ptct.net",
+    "password": "Pass186030",
+    "userId": "9d48412a-28bd-4034-a1f5-d1f7b500741e",
+    "deviceId": "505f92f1-af92-4304-8f92-6101b27f87bb",
+    "authToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI5ZDQ4NDEyYS0yOGJkLTQwMzQtYTFmNS1kMWY3YjUwMDc0MWUiLCJpYXQiOjE3NDQ1MjcxODcsImV4cCI6MTc2MDA3OTE4N30.YzBrlskIi5keVsJpjapNJ4hcDHWbUPyD_-69xRNA_vY",
+    "wallet": {
+      "address": "0x68884E9c6AAB85CAf2d3e3B2c857e79EFbAE4af8",
+      "privateKey": "eff3736d15e4c8ce7a90add6b639a1e5f163a0fc82e37034736874ee6280a2c3"
+    },
+    "createdAt": "2025-04-13T06:53:50Z",
+    "proxy": "http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594",
+    "tasksCompleted": 7
+  },
+  {
+    "username": "user1243801",
+    "email": "user1243801@ptct.net",
+    "password": "Pass125364",
+    "userId": "e7f1fbcc-9d64-4231-a78f-ae300191ebd0",
+    "deviceId": "1b133457-70e5-4d05-913e-f9852d481a27",
+    "authToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJlN2YxZmJjYy05ZDY0LTQyMzEtYTc4Zi1hZTMwMDE5MWViZDAiLCJpYXQiOjE3NDQ1MjczOTYsImV4cCI6MTc2MDA3OTM5Nn0.4-UUhEwC_LvtQTFeaiSGef5BBe8NpDchYjuvAK8u2t8",
+    "wallet": {
+      "address": "0x1B2033131b58465C7cFCb47558f4BF64fb0453f5",
+      "privateKey": "a41682faa11a489e102136bf31293ee2100668aa1e57aae5d73c999edaf50ff4"
+    },
+    "createdAt": "2025-04-13T06:57:29Z",
+    "proxy": "http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594",
+    "tasksCompleted": 7
+  },
+  {
+    "username": "user2887192",
+    "email": "user2887192@ptct.net",
+    "password": "Pass852935",
+    "userId": "b7e9d229-9d8b-4c42-8551-e55c63c22479",
+    "deviceId": "ec679e2c-c40f-4eac-ac9b-b2de52d9a032",
+    "authToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJiN2U5ZDIyOS05ZDhiLTRjNDItODU1MS1lNTVjNjNjMjI0NzkiLCJpYXQiOjE3NDQ1Mjk3NTYsImV4cCI6MTc2MDA4MTc1Nn0.CnYQZvAzyawfuCK6hgzfMlfELTnR8njDCRPDesjuei0",
+    "wallet": {
+      "address": "0xE29DF12898bE7E9fCd5d62b0a9379D25dAFbCC66",
+      "privateKey": "4787e7e7b142ec32b585d21a60ad6566ce9619f42bf8efa4e06bbdb00fdc306a"
+    },
+    "createdAt": "2025-04-13T07:36:50Z",
+    "proxy": "http://bsjxixgn:gsx3ekjhuord@38.153.152.244:9594",
+    "tasksCompleted": 7
   }
 ]

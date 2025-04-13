@@ -37,11 +37,17 @@ MAX_RETRIES = 3
 REQUEST_TIMEOUT = 30  # Increased timeout
 TASK_RETRY_COUNT = 3  # Number of retries for each task
 TASK_RETRY_DELAY = 5  # Seconds to wait between task retries
+DISABLE_SSL_WARNINGS = True  # Disable SSL warnings
 
 # Global variables
 accounts = []
 proxies = []
 referral_code = ''
+
+# Disable SSL warnings
+if DISABLE_SSL_WARNINGS:
+    import urllib3
+    urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 def load_referral_code():
     """Load referral code from file"""
@@ -74,8 +80,18 @@ def load_proxies():
             logging.error(f"[-] {PROXIES_FILE} not found")
             return []
         
+        # Read the file content and log it for debugging
         with open(PROXIES_FILE, 'r', encoding='utf-8') as f:
-            proxy_lines = [line.strip() for line in f.readlines() if line.strip()]
+            file_content = f.read()
+            logging.info(f"[*] Raw file content: {repr(file_content)}")
+            
+            # Split by newlines and filter empty lines
+            proxy_lines = [line.strip() for line in file_content.split('\n') if line.strip()]
+            logging.info(f"[*] Found {len(proxy_lines)} non-empty lines in {PROXIES_FILE}")
+            
+            # Log each line for debugging
+            for i, line in enumerate(proxy_lines):
+                logging.info(f"[*] Line {i+1}: {repr(line)}")
         
         if not proxy_lines:
             logging.warning(f"[!] No proxies found in {PROXIES_FILE}")
@@ -85,24 +101,40 @@ def load_proxies():
         for line in proxy_lines:
             try:
                 proxy = line.strip()
-                if proxy.startswith(('http://', 'https://')):
-                    proxy = proxy.replace('http://', '').replace('https://', '')
+                logging.info(f"[*] Processing proxy line: {proxy}")
                 
+                # Handle different proxy formats
                 if '@' in proxy:
+                    # Format: username:password@host:port
                     auth, host_port = proxy.split('@')
-                    host, port = host_port.split(':') if ':' in host_port else (host_port, '')
-                    username, password = auth.split(':') if ':' in auth else ('', '')
+                    if ':' in auth:
+                        username, password = auth.split(':')
+                    else:
+                        username, password = auth, ''
+                    
+                    if ':' in host_port:
+                        host, port = host_port.split(':')
+                    else:
+                        host, port = host_port, ''
+                    
+                    proxy_url = f"http://{username}:{password}@{host}:{port}"
+                    logging.info(f"[+] Parsed proxy: {host}:{port} with auth")
                 else:
-                    host, port = proxy.split(':') if ':' in proxy else (proxy, '')
-                    username, password = '', ''
+                    # Format: host:port
+                    if ':' in proxy:
+                        host, port = proxy.split(':')
+                    else:
+                        host, port = proxy, ''
+                    
+                    proxy_url = f"http://{host}:{port}"
+                    logging.info(f"[+] Parsed proxy: {host}:{port} without auth")
                 
                 if not host or not port:
                     logging.warning(f"[!] Invalid proxy format: {line}")
                     continue
                 
-                proxy_url = f"http://{username}:{password}@{host}:{port}" if username and password else f"http://{host}:{port}"
                 valid_proxies.append(proxy_url)
-                logging.info(f"[+] Loaded proxy: {host}:{port}")
+                logging.info(f"[+] Added proxy: {proxy_url}")
             except Exception as e:
                 logging.warning(f"[!] Error parsing proxy line '{line}': {str(e)}")
         
@@ -110,6 +142,8 @@ def load_proxies():
         return valid_proxies
     except Exception as e:
         logging.error(f"[-] Error loading proxies: {str(e)}")
+        import traceback
+        logging.error(f"[-] Traceback: {traceback.format_exc()}")
         return []
 
 def get_random_proxy():
@@ -186,6 +220,17 @@ def make_request(method, url, data=None, headers=None, proxy=None, timeout=REQUE
             else:
                 response = requests.post(url, json=data, headers=headers, proxies=proxies, timeout=timeout, verify=False)
             
+            # Check for 402 Payment Required error
+            if response.status_code == 402:
+                logging.error(f"[-] Payment Required error: {response.text}")
+                # Try to extract more information from the response
+                try:
+                    error_data = response.json()
+                    logging.error(f"[-] Error details: {error_data}")
+                except:
+                    pass
+                raise Exception(f"Payment Required: {response.text}")
+            
             response.raise_for_status()
             return response.json(), response.headers
         except requests.exceptions.RequestException as e:
@@ -207,6 +252,14 @@ def register_user(credentials, proxy):
         
         headers = create_headers(None, f'signup?ref={referral_code}')
         
+        # Add additional headers that might help
+        headers.update({
+            "Origin": "https://billipad.finance",
+            "Connection": "keep-alive",
+            "Cache-Control": "no-cache",
+            "Pragma": "no-cache"
+        })
+        
         data = {
             "username": username,
             "email": email,
@@ -214,6 +267,17 @@ def register_user(credentials, proxy):
             "deviceId": device_id,
             "referralLink": get_referral_link()
         }
+        
+        # Try to get the signup page first to get any necessary cookies
+        try:
+            signup_url = f"https://billipad.finance/signup?ref={referral_code}"
+            requests.get(signup_url, headers=headers, proxies={'http': proxy, 'https': proxy} if proxy else None, verify=False, timeout=REQUEST_TIMEOUT)
+            logging.info("[+] Visited signup page to get cookies")
+        except Exception as e:
+            logging.warning(f"[!] Failed to visit signup page: {str(e)}")
+        
+        # Wait a bit before making the actual request
+        time.sleep(2)
         
         response, _ = make_request('POST', f"{BASE_URL}/signup", data, headers, proxy)
         
@@ -232,11 +296,30 @@ def login_user(credentials, proxy):
         
         headers = create_headers(None, 'login')
         
+        # Add additional headers that might help
+        headers.update({
+            "Origin": "https://billipad.finance",
+            "Connection": "keep-alive",
+            "Cache-Control": "no-cache",
+            "Pragma": "no-cache"
+        })
+        
         data = {
             "email": email,
             "password": password,
             "deviceId": device_id
         }
+        
+        # Try to get the login page first to get any necessary cookies
+        try:
+            login_url = "https://billipad.finance/login"
+            requests.get(login_url, headers=headers, proxies={'http': proxy, 'https': proxy} if proxy else None, verify=False, timeout=REQUEST_TIMEOUT)
+            logging.info("[+] Visited login page to get cookies")
+        except Exception as e:
+            logging.warning(f"[!] Failed to visit login page: {str(e)}")
+        
+        # Wait a bit before making the actual request
+        time.sleep(2)
         
         response, response_headers = make_request('POST', f"{BASE_URL}/login", data, headers, proxy)
         
@@ -488,6 +571,10 @@ def main():
         if user_input.lower() != 'y':
             logging.info("[*] Exiting script as requested.")
             return
+    else:
+        logging.info(f"[+] Successfully loaded {len(proxies)} proxies")
+        for i, proxy in enumerate(proxies):
+            logging.info(f"[+] Proxy {i+1}: {proxy}")
     
     # Load existing accounts if file exists
     if os.path.exists(ACCOUNTS_FILE):
@@ -510,6 +597,28 @@ def main():
     print('------------------------------')
     print('Bilipad Ref - Auto Insiders')
     print('------------------------------')
+    
+    # Check if the website is accessible
+    try:
+        proxy = get_random_proxy() if proxies else None
+        proxies_dict = {'http': proxy, 'https': proxy} if proxy else None
+        
+        logging.info(f"[*] Testing website accessibility with proxy: {proxy}")
+        response = requests.get("https://billipad.finance", proxies=proxies_dict, verify=False, timeout=REQUEST_TIMEOUT)
+        if response.status_code != 200:
+            logging.warning(f"[!] Website returned status code {response.status_code}")
+            user_input = input("The website might be down or changed. Do you want to continue anyway? (y/n): ")
+            if user_input.lower() != 'y':
+                logging.info("[*] Exiting script as requested.")
+                return
+        else:
+            logging.info("[+] Website is accessible")
+    except Exception as e:
+        logging.warning(f"[!] Could not access the website: {str(e)}")
+        user_input = input("The website might be down or changed. Do you want to continue anyway? (y/n): ")
+        if user_input.lower() != 'y':
+            logging.info("[*] Exiting script as requested.")
+            return
     
     count = input('How many accounts to create? ')
     try:
